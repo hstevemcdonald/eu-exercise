@@ -8,7 +8,7 @@
 
   `eu-exercise\.env.sample` to `eu-exercise\.env`
 
-- Change values for `MONGO_DB_URL` and `MONGO_DB_NAME` to point to Mongo database for testing
+- Change values for `MONGO_DB_PORT`, `MONGO_DB_HOST` and `MONGO_DB_NAME` to point to Mongo database for testing. Optionally use `MONGO_DB_USERNAME` and `MONGO_DB_USER_PASSWORD` as needed.
 
 - Enter app folder via console
 
