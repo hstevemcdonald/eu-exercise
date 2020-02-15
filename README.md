@@ -57,11 +57,9 @@ Thank you for the opportunity! Please see my notes below on Requirements, Assump
     - Default pagination of results - start of 0 and limit
 
 ## Potential improvements / with more time
-- Refactor MongoDB connection setup to use host, user, pass, port, dbname vs url + dbname
 - Return message for counts, no results found message
 - Ensure there are no duplicate property ids
 - Implement schema validation on property records (and proper API 400 code)
-- Use MongoDB pooling to seed data for faster performance
 - Show 'inserted X of (total rows)' for better tracking of seed operation
 - Text is evaluated for location data
 - Provide distance to location in results
