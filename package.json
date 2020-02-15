@@ -1,0 +1,23 @@
+{
+  "name": "earnup-exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest --detectOpenHandles --coverage",
+    "seed": "node db/seed.js properties db/AB_NYC_2019.csv",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "csvtojson": "^2.0.10",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "mongodb": "^3.5.3"
+  },
+  "devDependencies": {
+    "geolib": "^3.2.1",
+    "supertest": "^4.0.2"
+  }
+}
