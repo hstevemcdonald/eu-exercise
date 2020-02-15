@@ -13,6 +13,10 @@
 - Enter app folder via console
 
   `$ cd eu-exercise`
+  
+- Install dependencies
+
+  `$ yarn install`  
 
 - Run seed operation on MongoDB database
 
