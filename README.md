@@ -30,7 +30,7 @@
 
   `$ yarn test`
 
-- In a new console, run client which will call API with two sample JSON objects (same as provided in instruction document)
+- In a new console, run client which will call API with two sample JSON objects (same as provided in instruction document) to see sample output of search results from API
 
   `$ yarn client`
 
@@ -68,6 +68,7 @@ Thank you for the opportunity! Please see my notes below on Requirements, Assump
 - Use MongoDB pooling to seed data for faster performance
 - Show 'inserted X of (total rows)' for better tracking of seed operation
 - Text is evaluated for location data
+- Clean up / close Mongo connection at end of tests
 - Provide distance to location in results
 - List of words/phrases to exclude from matching
 - Ability to narrow results specifically by price, neighborhood, room type, min reviews, etc..
