@@ -4,7 +4,7 @@ const { search } = require('../components/search');
 
 const { SEARCH_LIMIT, SEARCH_DISTANCE } = require('../constants');
 
-/* POST search - To improvde, refactor with Joi to validate values when present*/
+/* POST search - To improve, refactor with Joi to validate values when present*/
 router.post('/search', async function(req, res, next) {
     let results;
     try {
